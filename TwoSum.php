@@ -18,7 +18,7 @@ class Solution {
             }
         }
 
-        print_r('[' . $indices[0] . ',' . $indices[1] . ']');
+        return $indices;
     }
 }
 

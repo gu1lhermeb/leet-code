@@ -2,7 +2,8 @@
 
 class Solution {
 
-    function twoSum($nums, $target) {
+    function twoSum($nums, $target) 
+    {
         $indices = [];
 
         foreach($nums as $key1 => $number1) {

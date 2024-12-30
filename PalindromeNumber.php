@@ -2,7 +2,8 @@
 
 class Solution {
 
-    function isPalindrome($number) {
+    function isPalindrome($number) 
+    {
         $arrayNumber = str_split($number);
 
         $reverseArrayNumber = array_reverse($arrayNumber);
